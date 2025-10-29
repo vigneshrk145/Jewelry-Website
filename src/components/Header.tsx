@@ -7,7 +7,6 @@ import { RootState } from '@/store'
 import { toggleWishlistDrawer } from '@/store/slices/uiSlice'
 import { hydrate as hydrateWishlist } from '@/store/slices/wishlistSlice'
 import { hydrate as hydrateCart } from '@/store/slices/cartSlice'
-import SearchBar from './SearchBar'
 import WishlistDrawer from './WishlistDrawer'
 
 const Header = () => {
